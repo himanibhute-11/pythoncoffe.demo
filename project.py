@@ -13,7 +13,7 @@ order_total=0
 item_1=input("enter the item you want to order:")
 if item_1 in menu:
     order_total +=menu[item_1]
-    print(f"your item{item_1} has been added to your order:")
+    print(f"your item {item_1} has been added to your order:")
 else:
     print(f"sorry, we don't have {item_1} on the menu")
 
@@ -30,3 +30,4 @@ print("The total amount of your order is:", order_total)
 print("Thank you for your order!")
 
 print("enjoy your meal!")
+
