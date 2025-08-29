@@ -22,10 +22,11 @@ if another_order=="yes":
     item_2=input("enter the item you want to order:")
     if item_2 in menu:
         order_total +=menu[item_2]
-        print(f"your item{item_2} has been added to your order:")
+        print(f"your item {item_2} has been added to your order:")
     else:
         print(f"sorry, we don't have {item_2} on the menu")
 
-print("the total amount of your order is:",order_total)
+print("The total amount of your order is:", order_total)
 print("Thank you for your order!")
+
 print("enjoy your meal!")
